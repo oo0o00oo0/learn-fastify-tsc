@@ -1,0 +1,21 @@
+{
+	"name": "typescript",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"tsc": "tsc",
+		"build": "tsc -p tsconfig.json",
+		"start": "node index.js",
+		"dev": "nodemon"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.16",
+		"nodemon": "^3.0.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"fastify": "^4.26.0"
+	}
+}
